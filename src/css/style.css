@@ -1,0 +1,28 @@
+table{
+    margin-top: 15px;
+}
+
+.main_div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+    width: 95%;
+}
+
+.svg_div{
+    padding-left: 10px;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+    background-color: #3366ff !important;
+    border: none !important;
+}
+
+.option_div{
+    display: flex;
+}
