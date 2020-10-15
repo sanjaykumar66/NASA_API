@@ -3,8 +3,9 @@ table{
 }
 
 .main_div{
-    position: absolute;
-    top: 0;
+ 
+    top: 20px;
+    position: relative;
     right: 0;
     left: 0;
     bottom: 0;
@@ -25,4 +26,16 @@ table{
 
 .option_div{
     display: flex;
+}
+
+.table-responsive{
+    transform: scale(0.9);
+    position: relative;
+    top: -50px;
+    left: -3%;
+}
+
+.pagination{
+    position: relative;
+    top: -50px;
 }
