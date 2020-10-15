@@ -46,7 +46,7 @@ componentDidMount(){
 
             window.scrollTo(0, 0);
             const list=[];
-    fetch("http://localhost:3001/list?page="+this.page)
+    fetch("https://scribeless-api.glitch.me/list?page="+this.page)
       .then(res => res.json())
       .then(
         (result) => { 
@@ -124,7 +124,7 @@ componentDidMount(){
             var config = {
                 method: 'get',
                 
-                url: 'http://localhost:3001/searchdate?start='+document.getElementById("startdate").value+'&end='+document.getElementById("enddate").value,
+                url: 'https://scribeless-api.glitch.me/searchdate?start='+document.getElementById("startdate").value+'&end='+document.getElementById("enddate").value,
                 headers: { }
               };
               
@@ -166,7 +166,7 @@ componentDidMount(){
             var config = {
                 method: 'get',
                 
-                url: 'http://localhost:3001/search?q='+document.getElementById("search").value,
+                url: 'https://scribeless-api.glitch.me/search?q='+document.getElementById("search").value,
                 headers: { }
               };
               
