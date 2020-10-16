@@ -15,7 +15,7 @@
     "reactstrap": "^8.6.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js"
    
   },
   "eslintConfig": {
